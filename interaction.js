@@ -75,7 +75,7 @@ function criarCards() {
         card.appendChild(nome);
 
         const preco = document.createElement('p');
-        preco.textContent = `Preço: R$ ${item.preco.toFixed(2)}`;
+        preco.textContent = 'Preço: R$ ${item.preco.toFixed(2)}';
         card.appendChild(preco);
 
         const descricao = document.createElement('p');
